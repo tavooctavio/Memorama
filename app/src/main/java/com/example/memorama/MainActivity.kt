@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         changeFragment(homeFragment)
     }
 
-
     //Metodo para cambiar entre fragment
     private fun changeFragment(fragment: Fragment){
         val transaction = supportFragmentManager.beginTransaction()
