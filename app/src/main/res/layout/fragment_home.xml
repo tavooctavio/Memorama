@@ -25,24 +25,52 @@
             app:layout_constraintVertical_bias="0.2"/>
 
         <Button
+            android:id="@+id/btCasa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Casa"/>
+            android:text="Casa"
+            app:layout_constraintTop_toBottomOf="@+id/tvMemorama"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="50dp"
+            app:layout_constraintVertical_bias="0.25"/>
 
         <Button
+            android:id="@+id/btAnimales"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Animales" />
+            android:text="Animales"
+            app:layout_constraintTop_toBottomOf="@id/btCasa"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="50dp"
+            app:layout_constraintVertical_bias="0.1"/>
 
         <Button
+            android:id="@+id/btVerbos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Verbos"/>
+            android:text="Verbos"
+            app:layout_constraintTop_toBottomOf="@+id/btAnimales"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="50dp"
+            app:layout_constraintVertical_bias="0.14"/>
 
         <Button
+            android:id="@+id/btDeportes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Deportes" />
+            android:text="Deportes"
+            app:layout_constraintTop_toBottomOf="@+id/btVerbos"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="50dp"
+            app:layout_constraintVertical_bias="0.2"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

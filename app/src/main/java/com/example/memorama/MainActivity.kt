@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val homeFragment = HomeFragment.newInstance()
+        val homeFragment = JuegoFragment.newInstance()
         changeFragment(homeFragment)
     }
 
